@@ -1,0 +1,121 @@
+/* Main Rules
+==================== */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;500;700;900&display=swap');
+ 
+
+body,
+p {
+    font-family: 'Tajawal', sans-serif;
+}
+
+body {
+    overflow-x: hidden !important;
+}
+
+/* Version
+==================== */
+
+.version {
+    background-color: #ffb048;
+    display: inline-block;
+    padding: 10px 140px;
+    color: #fff;
+    transform: rotate(-45deg);
+    position: fixed;
+    top: 50px;
+    left: -120px;
+    box-shadow: 5px 5px 10px 0px #969696;
+}
+
+/* Index Page
+==================== */
+
+#index {
+    margin-top: 140px;
+}
+
+#index .col-12 img {
+    transition: all 200ms ease-in-out;
+}
+
+#index .col-12 img:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0 10px 4px #656565;
+}
+
+#index .col-12 span {
+    color: #ffb048;
+}
+
+#index .col-12 h4 {
+    z-index: 9;
+}
+
+#index .col-12 h4 strong {
+    position: relative;
+}
+
+#index .col-12 h4 strong::after {
+    background-color: #ffb048;
+    transform: rotate(-6deg);
+    position: absolute;
+    height: 20px;
+    opacity: 0.8;
+    content: " ";
+    width: 95px;
+    bottom: 8px;
+    right: -7px;
+    z-index: -1;
+}
+
+#index .col-12 h3 {
+    color: #48ffa3;
+}
+
+#index .col-12 span a {
+    border-bottom: 2px solid transparent;
+    transition: all 200ms ease-in-out;
+    color: #086c6b;
+    font-size: 20px;
+}
+
+#index .col-12 span a:hover {
+    border-bottom: 2px solid #086c6b;
+    text-decoration: none;
+}
+
+/* Buy Template
+==================== */
+
+#buy-template {
+    text-align: center;
+    background-color: #ffce8e;
+    padding: 50px 0;
+    color: #fff;
+}
+
+#buy-template .buy-template a {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    transition: all 200ms ease-in-out;
+}
+
+#buy-template .buy-template a:hover {
+    text-decoration: none;
+    color: #ffb048;
+}
+
+#buy-template .social-media li a {
+    border-bottom: 2px solid transparent;
+}
+
+#buy-template .social-media li a:hover svg {
+    color: #fff;
+    margin-top: -10px;
+}
+
+/* ====================
+  Media 768px
+==================== */
+
+@media (min-width: 768px) {}
